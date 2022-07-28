@@ -1,6 +1,7 @@
 # igs-manager
 ## 1 - Install Python:
 Version 3.10.1 <br>
+link: https://www.python.org/downloads/ <br>
 ## 2 - Create Virtualenv: <br>
 install: pip install virtualenv <br>
 command: python -m venv ./venv <br>
