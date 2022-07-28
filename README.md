@@ -1,16 +1,19 @@
 # igs-manager
+
 ## 1 - Install Python:
 Version 3.10.1 <br>
-## 2 - Create Virtualenv: <br>
+link: https://www.python.org/downloads/ <br>
+## 2 - Clone project or Download ZIP<br>
+git: https://github.com/tavares51/igs-manager.git <br>
+## 3 - Create Virtualenv: <br>
+in project diretory, open CMD.
 install: pip install virtualenv <br>
 command: python -m venv ./venv <br>
 activate: venv\Scripts\activate.bat <br>
-## 3 - Clone porject <br>
-git: https://github.com/tavares51/igs-manager.git <br>
 ## 4 - Install Requirements <br>
 command: pip install -r requirements.txt <br>
 ## 5 - Create Database: <br>
-command: python manage.py makemigrations <br>
+command: python manage.py makemigrations igsManager<br>
 command: python manage.py migrate
 ## 6 - Create Superuser: <br>
 command: python manage.py createsuperuser <br>
@@ -42,3 +45,5 @@ access: http://127.0.0.1:8000/list-employees/
 ## 10 - Swagger (Plus) <br>
 access: http://127.0.0.1:8000/swagger/schema/
 ![image](https://user-images.githubusercontent.com/54647142/181624725-ca36f8ab-e481-4cd8-bb21-20cf2b6c27cc.png)
+#### Obs: When entering an invalid e-mail address, the system automatically returns an error
+![image](https://user-images.githubusercontent.com/54647142/181634141-2ea9bedc-d350-40c3-92b4-12bfa4c116ac.png)
