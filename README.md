@@ -45,3 +45,5 @@ access: http://127.0.0.1:8000/list-employees/
 ## 10 - Swagger (Plus) <br>
 access: http://127.0.0.1:8000/swagger/schema/
 ![image](https://user-images.githubusercontent.com/54647142/181624725-ca36f8ab-e481-4cd8-bb21-20cf2b6c27cc.png)
+#### Obs: When entering an invalid e-mail address, the system automatically returns an error
+![image](https://user-images.githubusercontent.com/54647142/181634141-2ea9bedc-d350-40c3-92b4-12bfa4c116ac.png)
