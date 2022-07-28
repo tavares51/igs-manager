@@ -1,17 +1,19 @@
 # igs-manager
+
 ## 1 - Install Python:
 Version 3.10.1 <br>
 link: https://www.python.org/downloads/ <br>
-## 2 - Create Virtualenv: <br>
+## 2 - Clone project or Download ZIP<br>
+git: https://github.com/tavares51/igs-manager.git <br>
+## 3 - Create Virtualenv: <br>
+in project diretory, open CMD.
 install: pip install virtualenv <br>
 command: python -m venv ./venv <br>
 activate: venv\Scripts\activate.bat <br>
-## 3 - Clone porject <br>
-git: https://github.com/tavares51/igs-manager.git <br>
 ## 4 - Install Requirements <br>
 command: pip install -r requirements.txt <br>
 ## 5 - Create Database: <br>
-command: python manage.py makemigrations <br>
+command: python manage.py makemigrations igsManager<br>
 command: python manage.py migrate
 ## 6 - Create Superuser: <br>
 command: python manage.py createsuperuser <br>
