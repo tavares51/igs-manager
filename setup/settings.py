@@ -131,5 +131,9 @@ REST_FRAMEWORK = {
     ),
 }
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'setup/static'),
+]
+
 import django_heroku
 django_heroku.settings(locals())
