@@ -78,10 +78,14 @@ WSGI_APPLICATION = 'setup.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+   'default': {
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'd57c3uj0un9gtd',
+       'USER': 'rfhrrrimtyjfck',
+       'PASSWORD': 'b22dbaeca2ba246a941c90cc61f103617fcababc655adb479b626a5a44840b08',
+       'HOST': 'ec2-3-213-228-206.compute-1.amazonaws.com',
+       'PORT':'5432'
+   }
 }
 
 
@@ -134,6 +138,3 @@ REST_FRAMEWORK = {
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'setup/static'),
 ]
-
-import django_heroku
-django_heroku.settings(locals())
