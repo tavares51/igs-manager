@@ -12,9 +12,8 @@ command: python -m venv ./venv <br>
 activate: venv\Scripts\activate.bat <br>
 ## 4 - Install Requirements <br>
 command: pip install -r requirements.txt <br>
-## 5 - Create Database: <br>
-command: python manage.py makemigrations igsManager<br>
-command: python manage.py migrate
+## 5 - Configure Database: <br>
+Database has already been configured.
 ## 6 - Create Superuser: <br>
 command: python manage.py createsuperuser <br>
 choice or login, e-mail and pasword. <br>
@@ -40,7 +39,7 @@ access: http://127.0.0.1:8000/admin/
 #### 8.2.2 - Employee screen
 ![image](https://user-images.githubusercontent.com/54647142/181624001-3fe62909-acec-444a-90fe-c7c1060b1ca5.png)
 ## 9 - Employee List <br>
-access: https://igs-manager.herokuapp.com/list-employees/
+access: https://igs-manager.herokuapp.com/ (public website) or http://127.0.0.1:8000/list-employees/ (local)
 ![image](https://user-images.githubusercontent.com/54647142/181623618-5fe740ef-01de-4276-8a4f-f6f2964aed0b.png)
 ## 10 - Swagger (Plus) <br>
 access: http://127.0.0.1:8000/swagger/schema/
