@@ -40,7 +40,7 @@ access: http://127.0.0.1:8000/admin/
 #### 8.2.2 - Employee screen
 ![image](https://user-images.githubusercontent.com/54647142/181624001-3fe62909-acec-444a-90fe-c7c1060b1ca5.png)
 ## 9 - Employee List <br>
-access: http://127.0.0.1:8000/list-employees/
+access: https://igs-manager.herokuapp.com/list-employees/
 ![image](https://user-images.githubusercontent.com/54647142/181623618-5fe740ef-01de-4276-8a4f-f6f2964aed0b.png)
 ## 10 - Swagger (Plus) <br>
 access: http://127.0.0.1:8000/swagger/schema/
